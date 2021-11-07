@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&family=Euphoria+Script&family=Source+Sans+Pro&display=swap');
+{
+	font-family: 'Euphoria Script', cursive;
+	font-family: 'Baloo Tamma 2', cursive;
+	margin: 0;
+	padding: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@500&display=swap');{
+	font-family: 'Prompt', sans-serif;
+}
+
+
+body{
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: #f3f8f7;
+	font-family: 'Source Sans Pro', sans-serif;
+	letter-spacing: .3px; 
+	 word-spacing: .1px;
+	 background-color: darkred;
+}
+
+main
+{
+	align-self: center;
+	width: 85vw;
+	text-align: center;
+	background-color: #f3f8f7;
+	font-size: 18px;
+	
+}
+
+
+header{
+	position: fixed;
+	width: 100%;
+	
+	margin: 0;
+	top: 0;
+	background-color: #f3f8f7;
+	
+	
+}
+
+a{
+	text-decoration: none;
+	color: #e21f2b;
+
+	
+}
+
+
+#title{
+	
+	font-family: 'Euphoria Script', cursive;
+	color: #c8292e;
+	font-size: 60px;
+	margin: 0;
+
+}
+#subtitle
+{
+	font-family: 'Prompt', sans-serif;
+	color: #5e5351;
+	font-size: 18px;
+	margin: 0;
+	padding: 3px;
+}
+
+
+.title-container
+{
+	padding: 2px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+#image{
+	width: 100%;
+}
+.img-div
+{
+	padding: 7%;
+}
+#img-caption
+{
+	padding-top: 5px;
+}
+#tribute-info
+{
+	border-top: 1px solid black;
+}
+h2{
+	font-family: 'Prompt', sans-serif;
+	color: #5e5351;
+	font-size: 19px;
+	
+}
+
+section{
+	width: 80%;
+	margin: auto;
+	left: 50%;
+	text-align: justify;
+}
+h3
+{
+	font-size: 19px;
+	text-align: center;
+	margin: 1rem;
+}
+.caption{
+	font-size: 19px;
+}
+
+@media (max-width: 800px){
+
+	body{
+		word-spacing: 0px;
+	}
+	#title{
+		font-size: 45px;
+	}
+	#subtitle{
+		font-size: 18px;
+		padding: 0;
+	}
+	.caption, h3{
+		font-size: 16px;
+	}
+	main{
+		font-size: 15px;
+	}
+
+}
+
+@media (max-width: 400px){
+
+	body{
+		min-width: 300px;
+		word-spacing: 0px;
+	}
+	#title{
+		font-size: 40px;
+	}
+	#subtitle{
+		font-size: 14px;
+		padding: 0;
+	}
+	.caption, h3{
+		font-size: 13.5px;
+	}
+	main{
+		font-size: 13.5px;
+		width: 90%;
+	}
+
+}
+
+
